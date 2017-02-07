@@ -28,6 +28,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Unicorn as the app server
 # gem 'unicorn'
 
+gem 'shoulda-matchers', group: :test
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
@@ -46,3 +48,8 @@ group :development do
   gem 'spring'
 end
 
+gem 'font-awesome-rails'
+
+gem 'twitter-bootstrap-rails'
+
+gem 'slim-rails'
